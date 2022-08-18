@@ -1,5 +1,5 @@
 const express = require('express')
-const mongoose = require('mongoose')
+
 
 const customer = require('./routes/customer')
 const item = require('./routes/item')
