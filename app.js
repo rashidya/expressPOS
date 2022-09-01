@@ -18,15 +18,6 @@ app.use('/orders',order)
 app.use('/orderDetail',orderDetail)
 
 
-//const url = 'mongodb://127.0.0.1/express'
-
-// mongoose.connect(url, { useNewUrlParser: true })
-// const con = mongoose.connection
-
-// con.on("open", () => {
-//     console.log('MongoDB connected!');
-// })
-
 
 app.listen(port, () => {
     console.log(`app starting on ${port}`);
